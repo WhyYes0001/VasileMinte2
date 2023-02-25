@@ -637,12 +637,27 @@ button {
   
 }
 
+
+@media (min-width: 100px) {
+  .author-nav ul li { padding-left: 0rem; }
+}
+@media (min-width: 500px) {
+  .author-nav ul li { padding-left: 0rem; }
+}
+@media (min-width: 600px) {
+  .author-nav ul li { padding-left: 1rem; }
+}
+@media (min-width: 700px) {
+  .author-nav ul li { padding-left: 1rem; }
+}
+
 @media (min-width: 100px) {
   .author-nav { top: 3rem; }
 }
 @media (min-width: 500px) {
   .author-nav { top: 3rem; }
 }
+
 
 
 
