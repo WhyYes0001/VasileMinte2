@@ -432,7 +432,25 @@ button {
   .home__title, .button2 , .home__description { left:0; }
 }
 @media (min-width: 700px) {
-  .home__title, .button2 , .home__description { left:0; }
+  .home__title, .button2 , .home__description { left:0;  }
+}
+@media (min-width: 750px) {
+  .home__title, .button2 , .home__description { left:50%; }
+}
+
+
+
+@media (min-width: 100px) {
+  .home__title, .button2 , .home__description { top:0rem; }
+}
+@media (min-width: 500px) {
+  .home__title, .button2 , .home__description { top:0rem; }
+}
+@media (min-width: 600px) {
+  .home__title, .button2 , .home__description { top:0rem;}
+}
+@media (min-width: 700px) {
+  .home__title, .button2 , .home__description { top:0rem;  }
 }
 @media (min-width: 750px) {
   .home__title, .button2 , .home__description { left:50%; }
@@ -609,6 +627,17 @@ button {
   
   
 }
+
+@media (min-width: 100px) {
+  .author-nav { top: 2rem; }
+}
+@media (min-width: 500px) {
+  .author-nav { top: 2rem; }
+}
+@media (min-width: 600px) {
+  .author-nav { top: 2rem; }
+}
+
 
 
 .gift__container {
