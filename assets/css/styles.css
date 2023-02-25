@@ -529,16 +529,25 @@ button {
   }
 }
 .celebrate__img {
-  all: initial;
   width: 400px;
   height: 350px;
   border-radius: 55px;
   transition: none;
+  justify-self: center;
   animation-name: change-background-image ;
   animation-duration: 10s;
   animation-iteration-count: infinite ;
   
 }
+@media (min-width: 100px) {
+  .celebrate__img { width: 352px; }
+}
+@media (min-width: 500px) {
+  .celebrate__img { width: 392px;
+ }
+}
+
+
 .celebrate__img2 {
   width: 400px;
   height: 350px;
@@ -629,14 +638,12 @@ button {
 }
 
 @media (min-width: 100px) {
-  .author-nav { top: 2rem; }
+  .author-nav { top: 3rem; }
 }
 @media (min-width: 500px) {
-  .author-nav { top: 2rem; }
+  .author-nav { top: 3rem; }
 }
-@media (min-width: 600px) {
-  .author-nav { top: 2rem; }
-}
+
 
 
 
